@@ -1,0 +1,23 @@
+22
+1432:/usr/lib/systemd/systemd --user
+1437:(sd-pam)
+1443:-bash
+9085:sh /home/user/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/user/.vscode-server/.64bbfbf67ada9953918d72e1df2f4d8e537d340e.token
+9097:/home/user/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/node /home/user/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/user/.vscode-server/.64bbfbf67ada9953918d72e1df2f4d8e537d340e.token
+9135:/home/user/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/node /home/user/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/out/bootstrap-fork --type=ptyHost --logsPath /home/user/.vscode-server/data/logs/20221007T194207
+44725:/home/user/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/node /home/user/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/out/bootstrap-fork --type=fileWatcher
+44785:/bin/bash --init-file /home/user/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+44825:su root
+87925:bash
+88566:su root
+129996:bash
+130669:su root
+151054:bash
+151428:su root
+151789:sshd: user@notty
+151790:bash
+151850:/home/user/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/node /home/user/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+151861:/home/user/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/node /home/user/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/out/bootstrap-fork --type=fileWatcher
+175809:bash
+181597:su root
+191967:sleep 180
